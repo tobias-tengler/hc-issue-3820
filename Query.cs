@@ -11,6 +11,7 @@ public class User
     [IsProjected]
     public int AddressId { get; set; }
 
+    [IsProjected]
     public string? Temp { get; set; }
 
     public Address? Address { get; set; }
